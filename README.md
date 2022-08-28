@@ -3,11 +3,11 @@
 - Xcode 13.4.1 - 13.4.1 Command Line Tools
 
 # SETUP AND DOCTRINE
-ruby -v
-rvm list
-rvm install 3.1.2
-rvm --default use 3.1.2
-gem update bundler
+- ruby -v
+- rvm list
+- rvm install 3.1.2
+- rvm --default use 3.1.2
+- gem update bundler
 
 # Generate the app
 rails new mailing_list --api --database=postgresql --skip-active-storage --skip-action-mailbox

@@ -53,8 +53,8 @@ resources :members
 - test with Postman
 
 # Show debug statements
-puts 'debugger statement'
-debugger
+- puts 'debugger statement'
+- debugger
 
 # Show the rails c
 - Rails.application.eager_load!

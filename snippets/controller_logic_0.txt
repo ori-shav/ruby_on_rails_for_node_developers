@@ -1,0 +1,24 @@
+class MembersController < ApplicationController
+    
+    def index
+        puts 'index'
+    end
+
+    def create
+        puts 'create'
+    end
+
+    def show
+        puts 'show'
+        render :json => {'foo' => 'bar'}
+    end
+
+    def update
+        puts 'update'
+    end
+
+    def destroy
+        puts 'destroy'
+    end
+
+end

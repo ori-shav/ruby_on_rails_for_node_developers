@@ -34,7 +34,7 @@ Add below to /etc/hosts file
 ```
 
 # Create member
-bin/rails generate model Member email:string subscribed:boolean
+rails generate model Member email:string subscribed:boolean
 
 - note the files that were created
 

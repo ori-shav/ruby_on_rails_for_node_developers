@@ -3,6 +3,8 @@
 - Xcode 13.4.1 - 13.4.1 Command Line Tools
 
 # SETUP AND DOCTRINE
+- brew install libpq
+- brew install postgresql
 - ruby -v
 - rvm list
 - rvm install 3.1.2
@@ -59,8 +61,8 @@ resources :members
 # Show the rails c
 - Rails.application.eager_load!
 - ApplicationRecord.subclasses.map(&:name)
-- Member.create(email: "asdf", subscribed: true)
-- Member.find_by(email: "asdf")
+- Member.create(email: "user@example.com", subscribed: true)
+- Member.find_by(email: "user@example.com")
 
 # implement controller logic
 - for reference: http://www.railsstatuscodes.com/
